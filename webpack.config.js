@@ -11,6 +11,7 @@ module.exports = {
   devServer: {
     static: './docs',
   },
+  devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({  // Also generate a test.html
       filename: 'index.html',
